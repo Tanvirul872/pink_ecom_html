@@ -15,7 +15,7 @@ modalCloseBtn.addEventListener('click',modalCloseFunc) ;
 
 
 
-// noitificaion toaster js 
+// noitificaion toaster js start
 
 const notificationToaster = document.querySelector('[data-toast]') ; 
 const notificationToasterClose = document.querySelector('[data-toast-close]') ; 
@@ -28,3 +28,4 @@ const toasterCloseFunc = function () {
 notificationToasterClose.addEventListener('click',toasterCloseFunc) ; 
 
 
+// noitificaion toaster js end
